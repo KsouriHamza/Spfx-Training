@@ -1,0 +1,7 @@
+/// Restriction PowerShell
+
+> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+// Creer un nouveau projet SPFX 
+
+yo @microsoft/sharepoint

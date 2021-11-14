@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "msgraph-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msgraph/MsgraphWebPart.js",
+          "manifest": "./src/webparts/msgraph/MsgraphWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsgraphWebPartStrings": "lib/webparts/msgraph/loc/{locale}.js"
+  }
+}
