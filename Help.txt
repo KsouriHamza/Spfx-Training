@@ -5,3 +5,25 @@
 // Creer un nouveau projet SPFX 
 
 yo @microsoft/sharepoint
+
+// Mettre à jour l’URL workbench hébergée de votre projet
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx"
+}
+// Url d'aide 
+https://docs.microsoft.com/fr-fr/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part
+
+
+// install and config git
+
+install git windows version
+on cmd config git with ur git depot 
+
+git config --global user.name "KsouriHamza"
+git config --global user.email "hksouri@gmail.com"
+
+to check set 
+git config --global --list

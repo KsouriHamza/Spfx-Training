@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "factory-methods-pattern-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/factoryMethodsPattern/FactoryMethodsPatternWebPart.js",
+          "manifest": "./src/webparts/factoryMethodsPattern/FactoryMethodsPatternWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FactoryMethodsPatternWebPartStrings": "lib/webparts/factoryMethodsPattern/loc/{locale}.js"
+  }
+}
