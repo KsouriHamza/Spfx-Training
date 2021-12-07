@@ -1,7 +1,7 @@
 # Docs
-docs
-*.txt
-*.pdf
+#docs
+#*.txt
+#*.pdf
 
 # Logs
 logs

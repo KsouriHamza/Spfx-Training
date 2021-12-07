@@ -1,0 +1,9 @@
+npm install @pnp/sp --save
+npm install inversify@5.0.1 reflect-metadata --save
+npm link spfx-di-wrapper
+npm install -D typed-scss-modules
+ ./node_modules/.bin/tsm src --exportType default
+https://www.skovy.dev/blog/generating-typescript-definitions-for-css-modules-using-sass?seed=k9bat4
+
+npm install @material-ui/core
+https://mui.com/getting-started/installation/

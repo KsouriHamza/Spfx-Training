@@ -1,0 +1,2 @@
+npm install inversify@5.0.1 reflect-metadata --save
+npm link

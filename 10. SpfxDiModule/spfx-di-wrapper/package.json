@@ -1,0 +1,23 @@
+{
+    "name": "spfx-di-wrapper",
+    "version": "1.0.0",
+    "description": "injection dependency wrapper for sharepoint framework project",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "files": [
+        "lib/**/*"
+    ],
+    "scripts": {
+        "build": "npm run clean && tsc",
+        "tsc": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rimraf lib",
+        "refreshVSToken": "vsts-npm-auth -config .npmrc"
+    },
+    "author": "Hamza Ksouri",
+    "license": "ISC",
+    "dependencies": {
+        "inversify": "^5.0.1",
+        "reflect-metadata": "^0.1.13"
+    }
+}

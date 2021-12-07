@@ -1,0 +1,9 @@
+npm install @pnp/sp --save
+npm install react-router-dom@5.2.0
+npm install @fluentui/react
+
+
+npm install @material-ui/core
+gulp clean
+gulp bundle –ship
+gulp package-solution --ship
