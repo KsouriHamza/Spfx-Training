@@ -5,5 +5,5 @@ npm install @fluentui/react
 
 npm install @material-ui/core
 gulp clean
-gulp bundle –ship
+gulp bundle --ship
 gulp package-solution --ship

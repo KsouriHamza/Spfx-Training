@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "org-chart-new-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/orgChartNew/OrgChartNewWebPart.js",
+          "manifest": "./src/webparts/orgChartNew/OrgChartNewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OrgChartNewWebPartStrings": "lib/webparts/orgChartNew/loc/{locale}.js"
+  }
+}
